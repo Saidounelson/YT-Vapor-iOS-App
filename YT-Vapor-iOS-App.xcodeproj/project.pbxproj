@@ -15,6 +15,9 @@
 		52CC98CF2888D44900AE6AC4 /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC98CE2888D44900AE6AC4 /* SongListViewModel.swift */; };
 		52CC98D12888D93200AE6AC4 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC98D02888D93200AE6AC4 /* HttpClient.swift */; };
 		52CC98D32888E47300AE6AC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC98D22888E47300AE6AC4 /* Constants.swift */; };
+		52CC98D5288B5A3600AE6AC4 /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC98D4288B5A3600AE6AC4 /* ModalType.swift */; };
+		52CC98D7288B5F0300AE6AC4 /* AddUpdateSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC98D6288B5F0300AE6AC4 /* AddUpdateSong.swift */; };
+		52CC98D9288B5F9700AE6AC4 /* AddUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC98D8288B5F9700AE6AC4 /* AddUpdateViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		52CC98CE2888D44900AE6AC4 /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
 		52CC98D02888D93200AE6AC4 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		52CC98D22888E47300AE6AC4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52CC98D4288B5A3600AE6AC4 /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
+		52CC98D6288B5F0300AE6AC4 /* AddUpdateSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSong.swift; sourceTree = "<group>"; };
+		52CC98D8288B5F9700AE6AC4 /* AddUpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				52CC98CE2888D44900AE6AC4 /* SongListViewModel.swift */,
+				52CC98D8288B5F9700AE6AC4 /* AddUpdateViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				52CC98BC2888CBDB00AE6AC4 /* SongList.swift */,
+				52CC98D6288B5F0300AE6AC4 /* AddUpdateSong.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +115,7 @@
 			children = (
 				52CC98D22888E47300AE6AC4 /* Constants.swift */,
 				52CC98D02888D93200AE6AC4 /* HttpClient.swift */,
+				52CC98D4288B5A3600AE6AC4 /* ModalType.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -182,11 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CC98D12888D93200AE6AC4 /* HttpClient.swift in Sources */,
+				52CC98D7288B5F0300AE6AC4 /* AddUpdateSong.swift in Sources */,
+				52CC98D5288B5A3600AE6AC4 /* ModalType.swift in Sources */,
 				52CC98CD2888D30500AE6AC4 /* Song.swift in Sources */,
 				52CC98CF2888D44900AE6AC4 /* SongListViewModel.swift in Sources */,
 				52CC98BD2888CBDB00AE6AC4 /* SongList.swift in Sources */,
 				52CC98BB2888CBDB00AE6AC4 /* YT_Vapor_iOS_AppApp.swift in Sources */,
 				52CC98D32888E47300AE6AC4 /* Constants.swift in Sources */,
+				52CC98D9288B5F9700AE6AC4 /* AddUpdateViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
